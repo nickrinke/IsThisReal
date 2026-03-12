@@ -2,7 +2,7 @@
 
 Email phishing detection for non-technical users. Forward a suspicious email to a shared mailbox and get a plain-language reply explaining exactly why it's safe or sketchy.
 
-Built on Microsoft 365 (Graph API) — deploy it for your own customers or let businesses run it against their own tenant.
+Built on Microsoft 365 (Graph API) and Claude. Deploy it for any organization or offer it as a service.
 
 ## How It Works
 
