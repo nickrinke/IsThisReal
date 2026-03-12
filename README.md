@@ -56,7 +56,7 @@ Graph API sendMail (reply to the user)
 Register an application in your tenant:
 
 - **API Permissions** (Application, not Delegated):
-  - `Mail.Read` — read messages from the shared mailbox
+  - `Mail.ReadWrite` — read messages and mark them as read
   - `Mail.Send` — send verdict replies
 - **Grant admin consent** for the permissions
 - **Create a client secret** and note the value
