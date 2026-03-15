@@ -2,8 +2,6 @@
 
 AI-powered email phishing detection. Forward a suspicious email, get a plain-English verdict.
 
-![Dashboard](dashboard.png)
-
 ## What it does
 
 - Monitors a shared mailbox via Microsoft Graph API for forwarded emails
@@ -13,6 +11,9 @@ AI-powered email phishing detection. Forward a suspicious email, get a plain-Eng
 - Replies with a red/yellow/green risk assessment explaining each finding in plain English
 - Claude acts as the final word on risk level — overrides false positives from automated checks
 - Score-based API gating — clean emails never hit the API, keeping costs near zero
+- Logs every scan to SQLite and serves a live dashboard with verdict breakdown, scan log, top flagged domains, and common detection signals
+
+![Dashboard](dashboard.png)
 
 ## Requirements
 
