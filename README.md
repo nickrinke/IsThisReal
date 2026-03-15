@@ -2,6 +2,8 @@
 
 AI-powered email phishing detection. Forward a suspicious email, get a plain-English verdict.
 
+![Dashboard](dashboard.png)
+
 ## What it does
 
 - Monitors a shared mailbox via Microsoft Graph API for forwarded emails
